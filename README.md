@@ -38,6 +38,7 @@ Detectar ataques de SYN flood e bloquear automaticamente o IP de origem do ataqu
   ```bash
   sudo chmod +x ids.py
 ### 3. Na máquina alvo, execute o script:
+sudo python3 ids.py
 
 ### 4. sudo python3 ids.py
 Na máquina atacante, use o Nmap para simular um ataque SYN flood:
